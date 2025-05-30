@@ -168,3 +168,23 @@ footer {
   margin-right: 5px;
   margin-bottom: 2px;
 }
+
+.no-bullets {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #c62828;
+  margin-left: 8px;
+  font-size: 1.1em;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+
+.delete-participant:hover {
+  color: #ff1744;
+  text-shadow: 0 0 2px #fff;
+}
