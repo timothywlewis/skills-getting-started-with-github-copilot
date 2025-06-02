@@ -3,16 +3,25 @@
 ## Running the App
 
 ```
-# Verify mongo db is running
-mongosh --eval "db.getMongo().getDBs()"
-
 # Run the app
 uvicorn src.app:app --reload
 # or
 python3 -m uvicorn src.app:app --reload
 ```
 
-Open your browser to http://localhost:8000/static/index.html to view the web app, or http://localhost:8000/docs for the API docs.
+Open your browser to http://localhost:8000/static/index.html to view the web app.
+
+## MongoDB
+
+```
+# Verify mongo db is running
+mongosh --eval "db.getMongo().getDBs()"
+```
+
+Connection String for browsing using the MongoDB VS Code Extension:
+
+    mongodb://localhost:27017
+
 
 ## Dev Container Configuration
 
